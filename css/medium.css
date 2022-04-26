@@ -1,0 +1,15 @@
+
+@media only screen and (min-width: 32.5em) {
+    header{
+        grid-template-columns: 200px auto;
+    }
+
+    main{
+        padding: 0 20px;
+    }
+
+    h1{
+        font-size: 2.5em;  
+    }
+
+}
