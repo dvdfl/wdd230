@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: rgb(230, 230, 230);
+    font-family: 'Ubuntu',Arial, Helvetica, sans-serif;
+}
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+header {padding-bottom: 1em;}
+main{
+    padding: 0 5px;
+    /*display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;*/
+}
+
+main p {
+    margin: 1em;
+}
+
+footer {
+    background-color: rgb(100, 100, 100);;
+    padding: 10px;;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav {
+	background-color: #36454f;
+	margin: 0 ;
+	/*max-width: 780px;*/
+	/*box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);*/
+    flex-direction: row;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+
+    margin: 0;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); */
+}
+nav ul { display: flex; }
+nav ul li { flex: 1 1 auto; } 
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, yellow, transparent) top /
+		var(--d, 0) 10px no-repeat;
+	transition: 0.5s;
+}
+nav a {
+    font-size: 1.1rem;
+}
+
+table.colors {
+    width: 100%;
+}
+
+table.colors th{
+    background-color: rgb(182, 181, 181);
+}
+table.colors th,
+table.colors td{
+    padding: 10px 5px;
+    text-align: center;
+}
+table.colors td{
+    color: white;
+}
+
+table.colors .primary{
+    background-color: #1660A0;
+}
+
+table.colors .secondary{
+    background-color: #A40007;
+}
+
+table.colors .accent1{
+    background-color: #137FB5;
+}
+table.colors .accent2{
+    background-color: #CE1616;
+}
+
+h1.example,h2.example,h3.example, h4.example, h5.example{
+    margin: 20px 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+p.example{
+    font-family: Lato, Helvetica, sans-serif;
+}
