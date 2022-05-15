@@ -3,6 +3,10 @@
     header div#media_logos{
         margin-right: 10%;;
     }
+    header .logo img{
+        width:100px;
+        margin: 2px 10px;
+    }
     header h2 {
         font-size: 1em;
     }

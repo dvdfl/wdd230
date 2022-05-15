@@ -111,7 +111,7 @@ section {
     border: black solid 1px;
     padding: 0px 10px;
 
-    min-height: 100px;/*for laout purposes only*/
+    min-height: 170px;/*for laout purposes only*/
 }
 #join{
     display:none;
