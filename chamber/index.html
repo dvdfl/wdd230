@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber web page layout for David F in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>East Chamber of Commerce</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/chamber_logo.png" alt="East Chamber of Commerce logo">
+            </div>
+            <div id="sitename">
+                <h1>East </h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+            <div id="media_logos">
+                <img class="media-logo" src="https://cdn.glitch.global/3a0e81c8-7c02-4c77-b24a-95e549c94be2/fb_logo_icon.png?v=1642310242554" alt="Facebook logo">
+                <img class="media-logo" src="https://cdn.glitch.global/3a0e81c8-7c02-4c77-b24a-95e549c94be2/twitter_social_icon.png?v=1642310246530" alt="In logo">
+            </div>
+            <div id="menu_btn">
+                <button type="button" id="menu_button" title="Expand / collapse menu"><img src="images/menu-icon.png" alt="menu icon"> </button>
+            </div>
+            <nav id="mainnav">
+                <ul class="nav">
+                    <li><a href="./" title="Discover">Discover</a></li>
+                    <li><a href="#" title="About">Directory</a></li>
+                    <li><a href="#" title="Services">Join</a></li>
+                    <li><a href="#" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="currentdate"> Saturday, 14 May 2022</div>
+        </header>
+        <main>
+            <section id="hero">
+                <p>Hero with site name and call to action</p>
+            </section>
+            <section id="event">
+                <p>Event</p>
+            </section>
+            <section id="weather">
+                <p>Weather</p>
+            </section>
+            <section id="news">
+                <p>News release</p>
+            </section>
+            <div id="spotlights">
+                <section><p>Spotlight 1</p>
+                </section>
+                <section><p>Spotlight 2</p>
+                </section>
+                <section><p>Spotlight 3</p>
+                </section>
+            </div>
+            <section id="join">
+                <p>Join</p>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <img src="images/chamber_logo.png" alt="East Chamber of Commerce logo" class="logo">
+                <!-- <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#" title="">About</a></li>
+                    <li><a href="#" title="">Services</a></li>
+                    <li><a href="#" title="">Contact</a></li>
+                    <li><a href="#" title="">More stuff</a></li>
+                </ul> -->
+            </div>
+            <div class="address">
+                <h3>East Chamber of Commerce</h3>
+                <p>
+                    100 Address ln
+                    <br>
+                    City, State, 99999
+                </p>
+            </div>
+            <div class="contact">
+                <p>
+                    info@chamber.com
+                    <br>
+                    +1-999-999-9999
+                    <br>
+                    📌 Location map
+                </p>
+            </div>
+            <div class="info">
+                <ul>
+                    <li>© <span id="current-year"></span> East Chamber of Commerce</li>
+                    <li>David F L</li>
+                    <li>WDD 260 Project </li>
+                    <li>Last Updated: <span id="last-updated"></span></li>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
