@@ -12,6 +12,7 @@ addChapterBtn.addEventListener("click", ()=>{
         // new button
         const newDeleteBtn = document.createElement("button");
         newDeleteBtn.textContent = '❌';
+        newDeleteBtn.ariaLabel = "Remove " + enteredValue;
         // button delete event handler
         newDeleteBtn.addEventListener("click", ()=>{
             listEl.removeChild(newListItem);
