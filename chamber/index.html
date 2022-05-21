@@ -14,53 +14,106 @@
 <body>
     <div class="container">
         <header>
-            <div class="logo">
-                <img src="images/chamber_logo.png" alt="East Chamber of Commerce logo">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/chamber_logo.png" alt="East Chamber of Commerce logo">
+                </div>
+                <div id="sitename">
+                    <h1>East </h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+                <div id="media_logos">
+                    <img class="media-logo" src="https://cdn.glitch.global/3a0e81c8-7c02-4c77-b24a-95e549c94be2/fb_logo_icon.png?v=1642310242554" alt="Facebook logo">
+                    <img class="media-logo" src="https://cdn.glitch.global/3a0e81c8-7c02-4c77-b24a-95e549c94be2/twitter_social_icon.png?v=1642310246530" alt="In logo">
+                </div>
+                <div id="menu_btn">
+                    <button type="button" id="menu_button" title="Expand / collapse menu"><img src="images/menu-icon.png" alt="menu icon"> </button>
+                </div>
+                <nav id="mainnav">
+                    <ul class="nav">
+                        <li><a href="#" title="Home">Home</a></li>
+                        <li><a href="#" title="Discover">Discover</a></li>
+                        <li><a href="#" title="About">Directory</a></li>
+                        <li><a href="#" title="Services">Join</a></li>
+                        <li><a href="#" title="Contact">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div id="sitename">
-                <h1>East </h1>
-                <h2>Chamber of Commerce</h2>
-            </div>
-            <div id="media_logos">
-                <img class="media-logo" src="https://cdn.glitch.global/3a0e81c8-7c02-4c77-b24a-95e549c94be2/fb_logo_icon.png?v=1642310242554" alt="Facebook logo">
-                <img class="media-logo" src="https://cdn.glitch.global/3a0e81c8-7c02-4c77-b24a-95e549c94be2/twitter_social_icon.png?v=1642310246530" alt="In logo">
-            </div>
-            <div id="menu_btn">
-                <button type="button" id="menu_button" title="Expand / collapse menu"><img src="images/menu-icon.png" alt="menu icon"> </button>
-            </div>
-            <nav id="mainnav">
-                <ul class="nav">
-                    <li><a href="./" title="Discover">Discover</a></li>
-                    <li><a href="#" title="About">Directory</a></li>
-                    <li><a href="#" title="Services">Join</a></li>
-                    <li><a href="#" title="Contact">Contact</a></li>
-                </ul>
-            </nav>
             <div id="currentdate"> Saturday, 14 May 2022</div>
         </header>
         <main>
             <section id="hero">
-                <p>Hero with site name and call to action</p>
+                <img src="images/main_banner_lg.jpg" alt="Hero image">
+                <h4 class="hero-title">Welcome to our site</h4>
+                <section class="hero-box">
+                    <button type="button" class="btn">Join the Chamber</button>
+                </section>
             </section>
             <section id="event">
-                <p>Event</p>
+                <h5>Ribbon Cutting</h5>
+                <p><strong>📍 The Diamond Shack</strong></p>
+                <p>Join us for the grand opening of The Diamond Shak. Thursday at 1:00 p.m. <a href="#" title="More info about ribbon cutting event">more info</a></p>
             </section>
             <section id="weather">
-                <p>Weather</p>
+                <h5>Weather</h5>
+                <div class="temperature">
+                    <img src="images/sun.png" alt="Sunny image"> 
+                    <div class="degrees"> 85℉</div>
+                    <div class="temp-desc">
+                        Sunny
+                    </div>
+                    <div class="weather-detail align-right">
+                        Wind Speed:
+                    </div>
+                    <div class="weather-detail"> 4 m/h</div>
+                    <div class="weather-detail align-right">
+                        Wind Chill:
+                    </div>
+                    <div class="weather-detail"> N/A</div>
+                </div>
+                
             </section>
             <section id="news">
-                <p>News release</p>
+                <h5>News release</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, officiis id. Nemo corporis laudantium aut aliquid illum? Tempore, sequi quibusdam dolorem ipsa sit repellat et dignissimos, maiores culpa ad enim!</p>
             </section>
             <div id="spotlights">
-                <section><p>Spotlight 1</p>
+                <section>
+                    <h5>Thankful Transport</h5>
+                    <img src="images/box-truck.png" alt="truck image">
+                    <p>"We get it there for you!"</p>
+                    <div class="spotlight-footer">
+                        <p>contact@thankfultransport.com
+                            +999 999 9999 | Website
+                        </p>
+                    </div>
                 </section>
-                <section><p>Spotlight 2</p>
+                <section>
+                    <h5>Code Primera</h5>
+                    <img src="images/programming.png" alt="Coding image">
+                    <p>An afterschool coding instructional program</p>
+                    <div class="spotlight-footer">
+                        <p>contact@codeprimera.com
+                            <br>
+                            +999 999 9999 | Website
+                        </p>
+                    </div>
                 </section>
-                <section><p>Spotlight 3</p>
+                <section>
+                    <h5>Build A Treefort</h5>
+                    <img src="images/tree-house.png" alt="treehouse picture">
+                    <p>Over 1000 Plans!</p>
+                    <div class="spotlight-footer">
+                        <p>builda@Treefort.com
+                            <br>
+                            +999 999 9999 | Website
+                        </p>
+                    </div>
                 </section>
             </div>
             <section id="join">
-                <p>Join</p>
+                <button type="button" class="btn btn-full">Join Us</button>
+                <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
             </section>
         </main>
         <footer>
