@@ -26,6 +26,9 @@
     #weather{
         grid-row: 5;
         grid-column: 2;
+        display: block;
+        margin: 0;
+        width: auto;
     }
     #weather .degrees {
         font-size: 3em;
@@ -45,7 +48,7 @@
     }
     footer .address{
         text-align: left;
-        margin-left: right;
+        margin: 0;
     }
     footer .info{
         width: 100%;

@@ -68,7 +68,7 @@ nav ul li a{
     /* grid-column: 1/5; */
     margin: .5em .3em;
     padding: .5em;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .header-content div#media_logos,
@@ -99,6 +99,15 @@ header h2 {
 #menu_button img{
     width: 35px;
 }
+
+#announcement {
+ background-color: #CE1616;
+ color: white;
+ text-align: center;
+ padding: .5em 0;
+ display: none;
+}
+
 main{
     margin-top: 1em;
     display: grid;
@@ -136,6 +145,7 @@ main>section, main>div {
     /*min-height: 100px;*//*for laout purposes only*/
     color: white;
     text-align: center;
+    box-shadow: 5px 5px 10px gray;
 }
 
 main>section p, main>div p{
@@ -199,7 +209,13 @@ h5{
     font-size: 1.8em;
 }
 
-#weather img { width: 60%; margin: 10px auto 0;}
+#weather{
+    display: inline-block;
+    width: 75%;
+    margin: auto;
+}
+
+#weather img { width: 60%; margin: 0 auto;}
 
 #weather .temperature {
     display: grid;
@@ -209,7 +225,7 @@ h5{
 }
 
 #weather .degrees{
-    font-size: 4em;
+    font-size: 3em;
 }
 #weather .temp-desc {
     grid-row: 2;
@@ -217,8 +233,8 @@ h5{
     text-align: right;
     border-bottom:2px solid white;
     font-size: 2em;
-    padding: 0;
-    margin: 0 30px 10px;
+    padding-bottom: 7px;
+    margin: 0 17px 10px;
     
 }
 #weather .weather-detail{
