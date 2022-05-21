@@ -55,6 +55,8 @@ nav ul li a{
     border-bottom: #e1e1e1 1px solid;
     padding: .5em;
     text-decoration: none;
+    color: #1660A0;
+    font-weight: bold;
 }
 
 .header-content div#sitename {
