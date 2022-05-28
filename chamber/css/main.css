@@ -99,7 +99,7 @@ header h2 {
 
 
 .media-logo{
-    max-width: 35px;
+    max-width: 30px;
 }
 /* #menu_button::after {
     content: "🍔";
@@ -111,6 +111,7 @@ header h2 {
     max-width: 30px;
     padding: 0;
     cursor: pointer;
+    border: 1px solid black;
 }
 
 #announcement {
