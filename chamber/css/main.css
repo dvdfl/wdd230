@@ -97,9 +97,8 @@ header h2 {
     font-size: .8em;
 }
 
-
 .media-logo{
-    max-width: 30px;
+    max-width: 25px;
 }
 /* #menu_button::after {
     content: "🍔";
@@ -108,10 +107,11 @@ header h2 {
     content: "❌";
 } */
 #menu_button img{
-    max-width: 30px;
+    max-width: 25px;
     padding: 0;
     cursor: pointer;
     border: 1px solid black;
+    border-radius: 3px;
 }
 
 #announcement {

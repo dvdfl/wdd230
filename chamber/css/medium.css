@@ -6,6 +6,13 @@
     header h2 {
         font-size: 1em;
     }
+    .media-logo{
+        max-width: 35px;
+    }
+    #menu_button img{
+        max-width: 35px;
+        padding: 2px;
+    }
     main{
         /* display: grid; */
         grid-template-columns: 2fr 1fr;
