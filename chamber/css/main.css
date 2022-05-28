@@ -107,7 +107,7 @@ header h2 {
 #menu_button.responsive::after {
     content: "❌";
 } */
-#menu_button {
+#menu_button img{
     max-width: 30px;
     padding: 0;
     cursor: pointer;
