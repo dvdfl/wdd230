@@ -27,3 +27,20 @@ const announcement = document.getElementById("announcement");
 const dayNumber = currentDate.getDay()
 // 1= Mon, 2=Tue
 if (dayNumber == 1 || dayNumber == 2) announcement.style.display = 'block';
+
+
+// days since last visit
+const lastVisit =  localStorage.getItem("lastVisit");
+let daysSinceLastVisit = 0;
+if(lastVisit){
+    const lastVisitDate = new Date(lastVisit);
+    //calculate time difference  
+    const timeDifference = currentDate.getTime() - lastVisitDate.getTime();  
+    //console.log(`time difference: ${timeDifference}`)
+    daysSinceLastVisit = Math.round(timeDifference / (1000 * 60 * 60 * 24)); 
+}
+else {
+    localStorage.setItem("lastVisit",currentDate);
+}
+currentDateDiv.innerHTML +=` <br><span class="last-visit"> ${daysSinceLastVisit} days since your last visit</span>`;
+

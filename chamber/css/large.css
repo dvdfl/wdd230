@@ -62,10 +62,29 @@
         background-color: #137FB5;
         color: white;
     }    
-    main{
+    main.home{
         max-width: 950px;
         margin: 1em auto;
         grid-template-columns: 1fr 3fr 1fr;
+    }
+    div.page-content{
+        max-width: 950px;
+        margin: 1em auto;
+        /* display: grid;
+        grid-template-columns: 3fr 1fr;
+        column-gap: 20px; */
+    }
+    /* div.page-content #banner{
+        grid-column: 1/3;
+    } */
+    aside {
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    aside #join, aside #event, 
+    aside #weather, aside #news{
+        grid-column: auto ;
+        grid-row: auto ;
     }
     #hero>img {
         height: 100%;
@@ -74,7 +93,7 @@
         font-size: 1em;
         margin: 0;
     }
-    main>section p, main>div p{
+    main.home>section p, main.home>div p{
         font-size: .8em;
         margin: 5px;
     }
@@ -138,4 +157,47 @@
     footer .info ul li:last-of-type{
         width: auto;
     }
+    main.std {
+        padding-bottom: 50px;
+        gap: 50px;
+    }
+    main.std h2{
+        align-self: flex-start;
+        margin-bottom: 0;
+    }
+    /* main.std>h2, main.std>.full-width{
+        grid-column: 1/4;
+    }
+    main.std>p.right{
+        grid-column: 2/4;
+        padding-bottom: 15px;
+        border-bottom: 2px dotted white;
+    }
+    main.std>p.left{
+        grid-column: 1/3;
+        padding-bottom: 15px;
+        border-bottom: 2px dotted white;
+    }
+    main.std>  .row3{
+        grid-row: 3;
+    }
+    main.std>  .row4{
+        grid-row: 4;
+    }
+    main.std>  .row5{
+        grid-row: 5;
+    }
+    main.std>  .row6{
+        grid-row: 6;
+    } */
+
+    main.std img{border: 2px solid gray;  border-radius: 5px;}
+    main.std img.glow:hover{ 
+        /*filter: grayscale(75%)*/
+        filter: drop-shadow(0 0 1rem white);
+    }
+    main.std img.invert:hover{ filter: invert(1);}
+    main.std img.blur:hover{ filter: blur(2px);}
+    main.std img.contrast:hover{ filter: contrast(3.5);}
+    main.std img.rotate:hover{ filter: hue-rotate(3.142rad);}
 }

@@ -16,10 +16,22 @@ header{
     background-color: #e1e1e1;
     padding-bottom: 1px;
 }
+main {
+    margin-top: 1em;
+    display: grid;
+    row-gap: .5em;
+}
 
-main, .header-content {
+main.home, .header-content {
     max-width: 950px;
     margin: 0 auto;
+}
+
+main.std {
+    background-color: #1660A0;
+    color: white;
+
+ padding: 0 10px;
 }
 
 .header-content .logo img{
@@ -29,6 +41,15 @@ main, .header-content {
 img {
     width: 100%;
 }
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
 .header-content{
     display: flex;
     flex-wrap: wrap;
@@ -81,6 +102,9 @@ nav.responsive ul li a:hover{
     padding: .5em;
     /*width: 100%;*/
 }
+.last-visit{
+    font-size: .7em;
+}
 
 .header-content div#media_logos,
 .header-content div#menu_btn
@@ -122,11 +146,7 @@ header h2 {
  display: none;
 }
 
-main{
-    margin-top: 1em;
-    display: grid;
-    row-gap: .5em;
-}
+
 #spotlights {
     /* background-color: #f1f1f1; */
     border: black solid 1px;
@@ -151,7 +171,8 @@ main{
     border-top: 1px solid white;
     line-height: 1.5em;
 }
-main>section, main>div {
+main.home>section, main.home>div,
+aside>section,aside>div {
     /*background-color: #f1f1f1;*/
     /*border: black solid 1px;*/
     /*padding: 0px 10px;*/
@@ -162,7 +183,7 @@ main>section, main>div {
     box-shadow: 5px 5px 10px gray;
 }
 
-main>section p, main>div p{
+main.home>section p, main.home>div p{
     font-size: 1.3em;
     margin: 15px;
 }
@@ -223,8 +244,7 @@ h5{
     font-size: 1.8em;
 }
 
-#weather{
-    display: inline-block;
+#weather {
     width: 75%;
     margin: auto;
 }
@@ -281,4 +301,10 @@ footer .info{
 }
 footer .info ul{
     list-style: none;
+}
+aside {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
