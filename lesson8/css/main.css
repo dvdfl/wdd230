@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    font-family: Ubuntu, sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 600px;
+}
+table.example {
+    border-collapse: collapse;
+    box-shadow: 10px 10px 15px navy;
+    width: 100%;
+}
+table.example th, table.example td {
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+}
+table.example th.title {
+    font-weight: bolder;
+    font-size: 2em;
+    background-color: skyblue;
+    color: black;
+}
+
+table.example caption{
+    margin-top: 20px;
+    font-size: .8;
+    caption-side: bottom;
+}
+
+table.example thead th {
+ background-color: navy;
+ color: white;
+}
+
+table.example tfoot td{
+    background-color: navy;
+    color: lightgray;
+    font-size: .8em;
+}
+
+table.example tbody tr:nth-child(even) {
+	background-color: #f1f1f1;
+}
+
+table.example tbody tr:nth-child(odd) {
+	background-color: #d6eff8;
+}
+
+table.example tbody tr:nth-of-type(4) td:nth-child(3) {
+	background-color: navy;
+    color: white;
+}
+
+table tbody tr th:first-child {
+    font-weight: normal;
+}
+
+table tbody tr:nth-child(5) th:nth-child(1) {
+    font-style: italic;
+}
