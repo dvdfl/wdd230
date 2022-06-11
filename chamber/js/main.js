@@ -44,3 +44,8 @@ else {
 }
 currentDateDiv.innerHTML +=` <br><span class="last-visit"> ${daysSinceLastVisit} days since your last visit</span>`;
 
+// date on form
+const dateFormField = document.getElementById("date_time");
+if (dateFormField) {
+    dateFormField.value = currentDate;
+}

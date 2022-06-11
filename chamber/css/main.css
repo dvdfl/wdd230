@@ -27,11 +27,12 @@ main.home, .header-content {
     margin: 0 auto;
 }
 
-main.std {
+main.std,
+main.join,
+aside.membership {
     background-color: #1660A0;
     color: white;
-
- padding: 0 10px;
+    padding: 0 10px;
 }
 
 .header-content .logo img{
@@ -146,6 +147,16 @@ header h2 {
  display: none;
 }
 
+.box-container {
+    background-color: #1660A0;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 10px grey;
+    padding: 0 15px 15px;
+}
+.box-container h4{
+    margin: 1.5em 0 -.5em;
+}
 
 #spotlights {
     /* background-color: #f1f1f1; */
@@ -226,6 +237,7 @@ section#hero{
     font-size: 120%;
     border: 1px solid white;
     cursor: pointer;
+    text-decoration: none;
 }
 .btn:hover{
     background-color: #CE1616;
@@ -308,3 +320,51 @@ aside {
     flex-direction: column;
     gap: 15px;
 }
+
+/*Form Styles*/
+form {
+    width: 100%;
+    margin-bottom: 30px;
+}
+form label,
+form >div{
+    display: block;
+    margin: 1.5em 0 .8em;
+}
+
+form label.option{
+    margin: 1em 0;
+}
+
+form label input,  
+form label textarea, 
+form label select {
+    display: block;
+    font-size: 1.1em;
+    width: 90%;
+    padding: .5em;;
+    max-width: 25em;
+    margin-top: 5px;
+    background-color: #e1e1e1;
+}
+form label input[type='radio']{
+    display: inline;
+    width: auto;
+    margin: 0 .5em;
+}
+
+form input:required{
+    border-left: 5px solid #A40007 ;
+}
+form input:invalid {
+    border-color: #A40007 ;
+    /* background-color: #fdc1c1; */
+}
+form input:required:valid{
+    border-left: 5px solid green ;
+}
+/* main.join h2.center,
+main.std h3.center{
+    text-align: center;
+    align-self: center;
+} */

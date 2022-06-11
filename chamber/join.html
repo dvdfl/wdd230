@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/windchill.js" defer></script>
+    <script src="js/lazyloading.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/chamber_logo.png" alt="East Chamber of Commerce logo" srcset="images/chamber_logo.webp">
+                </div>
+                <div id="sitename">
+                    <h1>East </h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+                <div id="media_logos">
+                    <img class="media-logo" src="images/fb_icon.png" srcset="images/fb_icon.webp" alt="Facebook logo">
+                    <img class="media-logo" src="images/twitter_icon.png" srcset="images/twitter_icon.webp" alt="In logo">
+                </div>
+                <div id="menu_btn">
+                    <a id="menu_button" href="#" title="Expand / collapse menu">
+                        <img src="images/menu-icon.png" alt="menu icon" srcset="images/menu-icon.webp">
+                    </a>
+                </div>
+                <nav id="mainnav">
+                    <ul class="nav">
+                        <li><a href="./" title="Home">Home</a></li>
+                        <li><a href="discover.html" title="Discover">Discover</a></li>
+                        <li><a href="#" title="Directory">Directory</a></li>
+                        <li><a href="join.html" title="Join">Join</a></li>
+                        <li><a href="#" title="Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="currentdate"> Saturday, 14 May 2022</div>
+            <div id="announcement">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+        </header>
+        
+        <!--MAIN CONTENT : BEGINS-->
+        <div class="page-content-form">
+            <div id="banner">
+                <!-- <img src="images/discover_banner.jpg" alt="Banner image"> -->
+                <img src="images/joinus_banner.jpg" alt="Banner image" sizes="80vw"
+                        srcset="images/joinus_banner450.webp 500w,
+                                images/joinus_banner450.jpg 500w,
+                                images/joinus_banner650.webp 700w,
+                                images/joinus_banner650.jpg 700w,
+                                images/joinus_banner950.webp 950w,
+                                images/joinus_banner950.jpg 950w"
+                >
+            </div>
+            <main class="join">
+                <h2>Chamber of Commerce Join Application</h2>
+                <form action="thankyou.html" method="get">
+                    <label>First name*
+                        <input type="text" name="fname" id="fname" required>
+                    </label>
+                    <label>Last name*
+                        <input type="text" name="lname" id="lname" required>
+                    </label>
+                    <label>Title
+                        <input type="text" name="title" id="title" placeholder="Business Position" pattern="[\w\s]{7,}">
+                    </label>
+                    <label>Email*
+                        <input type="email" name="email" id="email" placeholder="user@domain.com" required>
+                    </label>
+                    <label>Cell Phone Number*
+                        <input type="tel" name="cell_phone" id="cell_phone" required placeholder="1234567890">
+                    </label>
+                    <label>Business Name*
+                        <input type="text" name="business_name" id="business_name" required>
+                    </label>
+                    <div>Membership Level*</div>
+                    <label class="option">
+                        <input type="radio" name="membership_level" id="membership_level1" value="1" required>
+                        Non Profit
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="membership_level" id="membership_level2" value="2" required>
+                        Bronze
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="membership_level" id="membership_level3" value="3" required>
+                        Silver
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="membership_level" id="membership_level4" value="4" required>
+                        Gold
+                    </label>
+                    <label>
+                        Business Description
+                        <textarea name="business_description" rows="4"></textarea>
+                    </label>
+                    <input type="hidden" name="date_time" id="date_time">
+                    <input type="submit" value="Join the Chamber Now" class="btn">
+                </form>
+            </main>
+            <aside class="memberships">
+                <div class="box-container">
+                    <h3>Membership Levelss</h3>
+                    <h4>Non Profit</h4>
+                    <p>
+                        This Membership is only for non profit organizations and there is no fee.
+                    </p>
+                    <h4>Bronze</h4>
+                    <p>
+                        The Bronze membership is the basic option that allows your business to be part of the chamber with many benefits.
+                    </p>
+                    <h4>Silver</h4>
+                    <p>
+                        The Silver membership is the is the most common option for business. It allows you to be part of the member with some advanced benefits.
+                    </p>
+                    <h4>Gold</h4>
+                    <p>
+                        The Gold membership has it all, it comes with all the benefits available for other memberships .
+                    </p>
+                </div>
+            </aside>
+        </div>
+        <!--MAIN CONTENT : ENDS-->
+
+        <footer>
+            <div>
+                <img src="images/chamber_logo.png" alt="East Chamber of Commerce logo" class="logo" srcset="images/chamber_logo.webp">
+            </div>
+            <div class="address">
+                <h3>East Chamber of Commerce</h3>
+                <p>
+                    100 Address ln
+                    <br>
+                    City, State, 99999
+                </p>
+            </div>
+            <div class="contact">
+                <p>
+                    info@chamber.com
+                    <br>
+                    +1-999-999-9999
+                    <br>
+                    📌 Location map
+                </p>
+            </div>
+            <div class="info">
+                <ul>
+                    <li>© <span id="current-year"></span> East Chamber of Commerce</li>
+                    <li>David F L</li>
+                    <li>WDD 260 Project </li>
+                    <li>Last Updated: <span id="last-updated"></span></li>
+                </ul>
+            </div>
+        </footer>
+    </div>    
+</body>
+</html>
