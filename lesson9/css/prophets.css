@@ -1,0 +1,51 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header{
+    text-align: center;
+    color: darkblue;
+}
+header h1{
+    margin-bottom: 0;
+}
+main{
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 1250px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 5px;
+
+    background-color: lightgrey;
+    padding: 15px;;
+    box-shadow: 0 0 20px 10px gray;
+}
+.cards section {
+    background-color: rgb(180, 157, 138);
+    border: 2px solid black;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.cards section h2 {
+    color: darkslateblue;
+    font-size: 1.55em;
+}
+.cards section h3 {
+    margin: .5em 0;
+    font-size: 1em;
+}
+.cards section img {
+    margin: 1em 0;
+    width: 65%;
+    box-shadow: 0 0 20px 3px darkolivegreen;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: #e1e1e1;
+    color: #797979;
+}
