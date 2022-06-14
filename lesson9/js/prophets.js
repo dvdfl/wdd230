@@ -6,7 +6,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    //console.table(jsonObject);  // temporary checking for valid response and data parsing
     const prophets = jsonObject['prophets'];
     prophets.forEach(displayProphets);
   });
@@ -27,7 +27,7 @@ fetch(requestURL)
     let ordinalNumberSuffix = getOrdinalSuffix(prophet.order)
     portrait.setAttribute('src', prophet.imageurl);
     portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}- ${prophet.order}${ordinalNumberSuffix} Latter-day President`);
-    portrait.setAttribute('loading', 'lazy');
+    //portrait.setAttribute('loading', 'lazy');
 
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
