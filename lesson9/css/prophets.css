@@ -40,7 +40,7 @@ main{
 .cards section img {
     margin: 1em 0;
     width: 65%;
-    box-shadow: 0 0 20px 3px darkolivegreen;
+    box-shadow: 0 0 20px 3px #561f3b;
 }
 
 footer{
@@ -48,4 +48,13 @@ footer{
     text-align: center;
     background-color: #e1e1e1;
     color: #797979;
+}
+@media screen and (max-width: 22em) {
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));   
+        padding: 8px;
+    }
+    main{
+        padding: 8px;
+    }
 }
