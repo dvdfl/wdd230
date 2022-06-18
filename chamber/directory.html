@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank you! We received your application</title>
+    <title>Directory</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script src="js/main.js" defer></script>
     <script src="js/windchill.js" defer></script>
     <script src="js/lazyloading.js" defer></script>
+    <script src="js/directory.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -48,29 +49,30 @@
         
         <!--MAIN CONTENT : BEGINS-->
         <div class="page-content">
-            <div id="banner">
-                <!-- <img src="images/discover_banner.jpg" alt="Banner image"> -->
-                <img src="images/joinus_banner.jpg" alt="Banner image" sizes="80vw"
-                        srcset="images/joinus_banner450.webp 500w,
-                                images/joinus_banner450.jpg 500w,
-                                images/joinus_banner650.webp 700w,
-                                images/joinus_banner650.jpg 700w,
-                                images/joinus_banner950.webp 950w,
-                                images/joinus_banner950.jpg 950w"
-                >
-            </div>
-            <main class="std">
-                <div class="content">
-                    <h2 class="center">Thank you!</h2>
-                    <h3>We have received you application.</h3>
-                    <p>
-                        We will process you application as soon as possible and will get in contact with you by email or phone.
-                    </p>
-                    <p><br></p>
-                    <p><br></p>
-                    <p><br></p>
-                    <p><br></p>
+            <img src="images/directory_banner950.jpg" alt="Directory page banner" sizes="80vw"
+            srcset="
+                    images/directory_banner450.jpg 500w,
+                    
+                    images/directory_banner650.jpg 700w,
+                    
+                    images/directory_banner950.jpg 950w">
+                    <!-- srcset="images/directory_banner450.webp 500w,
+                    images/directory_banner450.jpg 500w,
+                    images/directory_banner650.webp 700w,
+                    images/directory_banner650.jpg 700w,
+                    images/directory_banner950.webp 950w,
+                    images/directory_banner950.jpg 950w"> -->
+            <main class="default">
+                <h2>Directory</h2>
+                <div id="display-options"> <button type="button" id="view_cards" class="btn">cards</button><button type="button" id="view_list" class="btn">list</button></div>
+                <div id="directory-list">
+
                 </div>
+                <!-- <section>
+                    <img src="" alt="">
+                    <h4></h4>
+                    <p></p>
+                </section> -->
             </main>
         </div>
         <!--MAIN CONTENT : ENDS-->

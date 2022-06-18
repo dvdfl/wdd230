@@ -1,0 +1,93 @@
+{
+    "companies":[
+        {
+            "name" : "Regions Bank - East Nashville",
+            "logo" : "http://NashvilleTNCOC.weblinkconnect.com/External/WCPages/WCWebContent/WebContentPage.aspx?ContentID=57",
+            "membership" : "gold",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "phone" : "800-987-6543",
+            "address" : "599 Gallatin Avenue, Nashville, TN 37206"
+        },
+        {
+            "name" : "United Rentals General Rentals",
+            "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1054",
+            "membership" : "bronze",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "phone" : "800-987-6543",
+            "address" : "301 Crutcher St, Nashville, TN 37213"
+        },
+        {
+            "name" : "Raphah Institute",
+            "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1523",
+            "membership" : "silver",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "phone" : "800-987-6543",
+            "address" : "615 Main St, Ste B23, Nashville, TN 37206"
+        },
+        {
+            "name" : "Keller Schroeder",
+            "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=2061",
+            "membership" : "gold",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "phone" : "800-987-6543",
+            "address" : "901 Woodland St, Ste 104, Nashville, TN 37206"
+        },
+        {
+            "name" : "Music City Baseball",
+            "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1614",
+            "membership" : "gold",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "phone" : "800-987-6543",
+            "address" : "2 Victory Ave, Ste 500, Nashville, TN 37213"
+        },
+        {
+            "name" : "Cumberland River Compact",
+            "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=226",
+            "membership" : "gold",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "phone" : "800-987-6543",
+            "address" : "PO Box 41721, Nashville, TN 37304"
+        },
+        {
+            "name" : "Social Link",
+            "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=514",
+            "membership" : "gold",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "phone" : "800-987-6543",
+            "address" : "901 Woodland Street, Nashville, TN 37206"
+        },
+        {
+            "name" : "The Magnolia Group",
+            "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=2218",
+            "membership" : "gold",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "phone" : "800-987-6543",
+            "address" : "7114 Charlotte Pike, Nashville, TN 37206"
+        },
+        {
+            "name" : "HealthTrust",
+            "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=2066",
+            "membership" : "gold",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "phone" : "800-987-6543",
+            "address" : "1100 Charlotte Ave, Ste 1100, Nashville, TN 37203 "
+        },
+        {
+            "name" : "Parallon",
+            "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=2067",
+            "membership" : "gold",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "phone" : "800-987-6543",
+            "address" : "1100 Charlotte Avenue, Suite 1600, Nashville, TN 37203"
+        },
+        {
+            "name" : "505 Nashville",
+            "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1698",
+            "membership" : "gold",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "phone" : "800-987-6543",
+            "address" : "505 Church Street, Nashville, TN 37219"
+        }
+        
+    ]
+}
