@@ -377,14 +377,15 @@ main.std h3.center{
 #directory-list {
     display: grid;
     gap: .5em;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    padding-bottom: 1em;
 }
 #directory-list.list {
     grid-template-columns: 1fr;
 }
 
 #directory-list section {
-    padding: 1.5em;    
+    padding: 1em .5em;    
     text-align: center;
 }
 #directory-list.list section{
