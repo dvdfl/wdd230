@@ -5,8 +5,8 @@
       }).then(function(data) {
         data.companies.forEach(company => {
             const section = document.createElement("section");
-            section.innerHTML = `<img src="${company.logo}" alt="${company.name} Logo">`;
-            section.innerHTML += `<h4>${company.name} <span class="membership_${company.membership}">★</span></h4>`;
+            section.innerHTML = `<h4>${company.name} <span class="membership_${company.membership}">★</span></h4>`;
+            section.innerHTML += `<img src="${company.logo}" alt="${company.name} Logo">`;
             section.innerHTML += `<p>${company.description}</p>`;
             section.innerHTML += `<div class="comp_contact"><address>${company.address}</address><tel>${company.phone}</tel></div>`;
             container.appendChild(section);
