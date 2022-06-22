@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+    text-align: center;
+}
+h1, h2 {
+    color: darkslategray;
+}
+h2{
+    margin: 2.2em 0 .75em;
+}
+figcaption{
+    text-transform: capitalize;
+}
+
+figure {
+    padding: 1.7em;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 3px solid darkslategray;
+    border-radius: 10px;
+}
+
+.temp-detail{
+    border-bottom: 2px dashed darkslategray;
+    border-top: 2px dashed darkslategray;
+    padding: 0 .5em 0;
+}
+
+#weather_detais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8em;
+}
+
+#min_temp, #max_temp, #humidity, #wind_speed {
+    font-weight: bold;
+}
+@media only screen and (max-width: 420px) {
+    h1{
+       font-size: 1.3em;
+    }
+    h2{
+        font-size: 1.1em;
+    }
+
+}
