@@ -3,6 +3,9 @@ body {
     background-color: azure;
     text-align: center;
 }
+.content {
+    min-height: calc(100vh-50px);
+}
 h1, h2 {
     color: darkslategray;
 }
@@ -38,6 +41,12 @@ figure {
 #min_temp, #max_temp, #humidity, #wind_speed {
     font-weight: bold;
 }
+
+footer {
+    margin-top: 100px;
+    font-size: 90%;
+}
+
 @media only screen and (max-width: 420px) {
     h1{
        font-size: 1.3em;
@@ -45,5 +54,4 @@ figure {
     h2{
         font-size: 1.1em;
     }
-
 }
