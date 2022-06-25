@@ -135,7 +135,7 @@
             </main>
             <aside>
                 <div id="join">
-                    <button type="button" class="btn btn-full">Join Us</button>
+                    <a href="join.html" title="Join Us Form" class="btn btn-full">Join Us</a>
                     <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
                 </div>
                 <section id="event">
@@ -146,9 +146,9 @@
                 <section id="weather">
                     <h5>Weather</h5>
                     <div class="temperature">
-                        <img src="images/sun.png" alt="Sunny image" srcset="images/sun.webp"> 
+                        <img src="images/sun.png" alt="Sunny image" srcset="images/sun.webp" id="weather_icon"> 
                         <div class="degrees"> <span id="weather_degrees">35</span>℉</div>
-                        <div class="temp-desc">
+                        <div class="temp-desc" id="temp_desc">
                             Sunny
                         </div>
                         <div class="weather-detail align-right">
@@ -159,7 +159,13 @@
                             Wind Chill:
                         </div>
                         <div class="weather-detail"> <span id="weather_windchill">N/A</span></div>
+
+                        <div class="weather-detail align-right">
+                            Humidity:
+                        </div>
+                        <div class="weather-detail"> <span id="weather_humidity">-</span> %</div>
                     </div>
+                    <p class="footnote">* Data from <a href="https://OpenWeatherMap.com">OpenWeatherMap.com</a></p>
                 </section>
                 <section id="news">
                     <h5>News Release</h5>

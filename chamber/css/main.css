@@ -278,7 +278,10 @@ h5{
     margin: auto;
 }
 
-#weather img { width: 60%; margin: 0 auto;}
+#weather img { 
+    width: 80%; 
+    margin: 0 auto;
+}
 
 #weather .temperature {
     display: grid;
@@ -331,6 +334,16 @@ footer .info{
 footer .info ul{
     list-style: none;
 }
+#weather p.footnote{
+    font-size: .7em;
+    font-style: italic;
+    padding-top: .5em;
+}
+
+#weather p.footnote a {
+    color: white;
+}
+
 aside {
     padding-top: 15px;
     display: flex;

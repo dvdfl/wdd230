@@ -49,14 +49,15 @@
         width: auto;
     }
     #weather .degrees {
-        font-size: 3em;
+        font-size: 2.5em;
     }
     #join{
         display :block;
+        padding: 15px;
     }
     .btn-full{
         display: block;
-        margin: 20px 5px;
+        margin: 20px auto;
     }
 
     footer{
