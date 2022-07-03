@@ -30,10 +30,11 @@ main.home, .header-content {
 main.std,
 main.join,
 main.default,
-aside.membership {
+aside.membership,
+main.contactus {
     background-color: #1660A0;
     color: white;
-    padding: 0 10px;
+    padding: 0 20px;
     box-shadow: 5px 5px 10px gray;
 }
 
@@ -166,14 +167,16 @@ header h2 {
     padding: 10px;
 }
 #spotlights>section,
-#directory-list>section {
+#directory-list>section,
+main.contactus .methods section {
     background-color:#137FB5;
 }
-#spotlights section:last-of-type{
+#home #spotlights section:last-of-type{
     display: none;
 }
 #spotlights>section>img{
-    width: 40%;
+    width: 65%;
+    margin: .8em 0;
 }
 
 #spotlights p {
@@ -447,10 +450,12 @@ main.std h3.center{
     text-align: center;
 }
 
-#directory-list section span.membership_gold{
+#directory-list section span.membership_gold,
+#spotlights section span.membership_gold{
     color:gold;
 }
-#directory-list section span.membership_silver{
+#directory-list section span.membership_silver,
+#spotlights section span.membership_silver{
     color:silver;
 }
 #directory-list section span.membership_bronze{
@@ -464,4 +469,7 @@ main.std h3.center{
     font-size: 90%;
     border-top: 1px solid white;
     line-height: 1.5em;
+}
+main.contactus .methods section {
+    text-align: center;
 }

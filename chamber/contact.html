@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">
-    <title>Directory</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script src="js/main.js" defer></script>
     <script src="js/windchill.js" defer></script>
     <script src="js/lazyloading.js" defer></script>
-    <script src="js/directory.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -50,31 +49,74 @@
         
         <!--MAIN CONTENT : BEGINS-->
         <div class="page-content">
-            <img src="images/directory_banner950.jpg" alt="Directory page banner" sizes="80vw"
-            srcset="
-                    images/directory_banner450.jpg 500w,
-                    
-                    images/directory_banner650.jpg 700w,
-                    
-                    images/directory_banner950.jpg 950w">
-                    <!-- srcset="images/directory_banner450.webp 500w,
-                    images/directory_banner450.jpg 500w,
-                    images/directory_banner650.webp 700w,
-                    images/directory_banner650.jpg 700w,
-                    images/directory_banner950.webp 950w,
-                    images/directory_banner950.jpg 950w"> -->
-            <main class="default">
-                <h2>Directory</h2>
-                <div id="display-options" class="btn-group"><button type="button" id="view_cards" class="btn btn-alt">cards</button><button type="button" id="view_list" class="btn btn-alt">list</button></div>
-                <div id="directory-list">
+            <div id="banner">
+                <!-- <img src="images/discover_banner.jpg" alt="Banner image"> -->
+                <img src="images/discover_banner.jpg" alt="Banner image" sizes="80vw"
+                        srcset="images/discover_banner450.webp 500w,
+                                images/discover_banner450.jpg 500w,
+                                images/discover_banner650.webp 700w,
+                                images/discover_banner650.jpg 700w,
+                                images/discover_banner950.webp 950w,
+                                images/discover_banner950.jpg 950w"
+                >
+            </div>
+            <main class="contactus">
+                <h2>Contact Us</h2>
+                <form action="contact-thankyou.html" method="get">
+                    <p>
+                        Send us your questions or comments using the form below. <br>
+                        We will respond promptly to your inquiry.
+                    </p>
+                    <label>Name*
+                        <input type="text" name="fullname" id="fname" required="">
+                    </label>
+                    <label>Email*
+                        <input type="email" name="email" id="email" placeholder="user@domain.com" required="">
+                    </label>
+                    <label>Phone Number
+                        <input type="tel" name="cell_phone" id="cell_phone" placeholder="1234567890">
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="business_description" rows="4"></textarea>
+                    </label>
+                    <input type="submit" value="Send Message" class="btn">
+                </form>
+                <div class="methods">
+                    <section>
+                        <h5>Visit Us</h5>
+                        <p>
+                            Redding Chamber of Commerce<br>
+                            1321 Butte Street, #100<br>
+                            Redding, CA 96001
+                        </p>
+                        <p>
+                            Monday – Thursday: 9:00 a.m. to 4:30 p.m.<br>
+                            Friday: By Appointment Only
 
+                        </p>
+                    </section>
+                    <section>
+                        <h5>Call Us</h5>
+                        <p>
+                            Jake Mangas<br>President & CEO<br>
+                            (530) 225-4433, ext. 104
+                        </p>
+                        <p>
+                            Erin Hull<br>
+                            Director of Marketing & Membership<br>
+                            530.225.4433, ext. 102
+                        </p>
+                        <p>
+                            Haley Soule Kennedy<br>
+                            Operations Assistant<br>
+                            (530) 225-4433, ext. 101
+                        </p>
+                    </section>
                 </div>
-                <!-- <section>
-                    <img src="" alt="">
-                    <h4></h4>
-                    <p></p>
-                </section> -->
+                
             </main>
+
         </div>
         <!--MAIN CONTENT : ENDS-->
 

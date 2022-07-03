@@ -133,4 +133,10 @@
     #directory-list section span.membership_bronze:after{
         content: "Bronze Member";
     }
+    main.contactus .methods {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin:  15px 0;
+    }
 }
