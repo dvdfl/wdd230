@@ -35,7 +35,7 @@
         {
             "name" : "Music City Baseball",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1614",
-            "membership" : "gold",
+            "membership" : "silver",
             "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
             "phone" : "800-987-6543",
             "address" : "2 Victory Ave, Ste 500, Nashville, TN 37213"
@@ -51,7 +51,7 @@
         {
             "name" : "Social Link",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=514",
-            "membership" : "gold",
+            "membership" : "bronze",
             "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
             "phone" : "800-987-6543",
             "address" : "901 Woodland Street, Nashville, TN 37206"
@@ -59,7 +59,7 @@
         {
             "name" : "The Magnolia Group",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=2218",
-            "membership" : "gold",
+            "membership" : "silver",
             "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
             "phone" : "800-987-6543",
             "address" : "7114 Charlotte Pike, Nashville, TN 37206"
@@ -75,7 +75,7 @@
         {
             "name" : "Parallon",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=2067",
-            "membership" : "gold",
+            "membership" : "silver",
             "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
             "phone" : "800-987-6543",
             "address" : "1100 Charlotte Avenue, Suite 1600, Nashville, TN 37203"
@@ -83,7 +83,7 @@
         {
             "name" : "505 Nashville",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1698",
-            "membership" : "gold",
+            "membership" : "bronze",
             "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
             "phone" : "800-987-6543",
             "address" : "505 Church Street, Nashville, TN 37219"
