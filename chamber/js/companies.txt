@@ -4,7 +4,7 @@
             "name" : "Regions Bank - East Nashville",
             "logo" : "http://NashvilleTNCOC.weblinkconnect.com/External/WCPages/WCWebContent/WebContentPage.aspx?ContentID=57",
             "membership" : "gold",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "description" : "Regions offers a full spectrum of banking services.",
             "phone" : "800-987-6543",
             "address" : "599 Gallatin Avenue, Nashville, TN 37206"
         },
@@ -12,7 +12,7 @@
             "name" : "United Rentals General Rentals",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1054",
             "membership" : "bronze",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "description" : "United Rentals provides 3300+ equipment and tool classes for industrial & construction sites across the United States and Canada",
             "phone" : "800-987-6543",
             "address" : "301 Crutcher St, Nashville, TN 37213"
         },
@@ -20,7 +20,7 @@
             "name" : "Raphah Institute",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1523",
             "membership" : "silver",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "description" : "Raphah Institute represents a chance to confront the root causes of societal harm, take a uniquely crafted approach, and see transformative healing for all.",
             "phone" : "800-987-6543",
             "address" : "615 Main St, Ste B23, Nashville, TN 37206"
         },
@@ -28,7 +28,7 @@
             "name" : "Keller Schroeder",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=2061",
             "membership" : "gold",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "description" : "Keller Schroeder is a premier technology company in the performance improvement business.",
             "phone" : "800-987-6543",
             "address" : "901 Woodland St, Ste 104, Nashville, TN 37206"
         },
@@ -36,7 +36,7 @@
             "name" : "Music City Baseball",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1614",
             "membership" : "silver",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "description" : "Music City Baseball is an organization of Nashville business, sports, music and community leaders.",
             "phone" : "800-987-6543",
             "address" : "2 Victory Ave, Ste 500, Nashville, TN 37213"
         },
@@ -44,7 +44,7 @@
             "name" : "Cumberland River Compact",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=226",
             "membership" : "gold",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "description" : "The Cumberland River Compact gives people the tools to be stewards of their watershed, while partnering within policy planning with government agencies.",
             "phone" : "800-987-6543",
             "address" : "PO Box 41721, Nashville, TN 37304"
         },
@@ -60,7 +60,7 @@
             "name" : "The Magnolia Group",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=2218",
             "membership" : "silver",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "description" : "Magnolia Group is based out of Omaha. Magnolia Group is a hedge fund with 2 clients and discretionary assets under management (AUM).",
             "phone" : "800-987-6543",
             "address" : "7114 Charlotte Pike, Nashville, TN 37206"
         },
@@ -68,7 +68,7 @@
             "name" : "HealthTrust",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=2066",
             "membership" : "gold",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "description" : "We are your strategic partner, offering customized workforce solutions ranging from forecasting and productivity benchmarking to physician recruiting.",
             "phone" : "800-987-6543",
             "address" : "1100 Charlotte Ave, Ste 1100, Nashville, TN 37203 "
         },
@@ -76,7 +76,7 @@
             "name" : "Parallon",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=2067",
             "membership" : "silver",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "description" : "Unrivaled scale, expertise and patient focus.",
             "phone" : "800-987-6543",
             "address" : "1100 Charlotte Avenue, Suite 1600, Nashville, TN 37203"
         },
@@ -84,7 +84,7 @@
             "name" : "505 Nashville",
             "logo" : "https://web.nashvillechamber.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1698",
             "membership" : "bronze",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "description" : "505 in Nashville delivers stunning views, robust amenities, and an un-matched lifestyle.",
             "phone" : "800-987-6543",
             "address" : "505 Church Street, Nashville, TN 37219"
         }
