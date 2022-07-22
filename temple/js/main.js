@@ -14,20 +14,23 @@ window.onresize = () => {
         menuBtn.classList.remove('responsive')        
     }
 };
+
+const close_alerts = getById("close_alerts");
+close_alerts.addEventListener("click", () => {
+    const alerts_banner = getById("weather_alerts");
+    alerts_banner.parentNode.removeChild(alerts_banner);
+});
+
 //temperature
 
 const weatherDegrees = document.getElementById("weather_degrees");
 const weatherWindSpeed = document.getElementById("weather_windspeed");
-const weatherWindChill = document.getElementById("weather_windchill");
 const apiCurrentUrl = "https://api.openweathermap.org/data/2.5/weather?q=Bethesda,MD,US&units=imperial&appid=";
-const apiForecastUrl = "https://api.openweathermap.org/data/2.5/forecast?q=Bethesda,MD,US&units=imperial&appid=";
+const ak = "e3cf141a197ad7d8f55f34115bd5bcd5";
 
 // if Weather elements are on the page then gets temperature
-if (weatherDegrees && weatherWindSpeed && weatherWindChill) {
-    //apiFetch();
-    const ak = "e3cf141a197ad7d8f55f34115bd5bcd5";
+if (weatherDegrees && weatherWindSpeed) {
     fetchData(apiCurrentUrl + ak, displayResults)
-    fetchData(apiForecastUrl + ak, displayForecast)
 }
 
 function displayResults(weatherData) {
@@ -49,38 +52,31 @@ function displayResults(weatherData) {
     weatherWindSpeed.textContent = weatherData.wind.speed.toFixed(1);
     humidity.textContent = weatherData.main.humidity.toFixed(0);
 
-    // windchill calculation
-    let temp = weatherData.main.temp; //parseFloat(weather_degrees.textContent);
-    let wind_speed = weatherData.wind.speed; //parseFloat(weatherWindSpeed.textContent);
-    let wind_chill = 'N/A';
+    const apiForecastUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${weatherData.coord.lat}&lon=${weatherData.coord.lon}&units=imperial&exclude=hourly,minutely&appid=${ak}`
 
-    if (temp <= 50 && wind_speed > 3) {
-        let chill_value = 35.74 + (0.6215 * temp) - 35.75 * (wind_speed ** 0.16) + 0.4275 * temp * (wind_speed ** 0.16);
-        wind_chill = chill_value.toFixed(1) + ' ℉';
-    }
-    //updating value on screen
-    weatherWindChill.textContent = wind_chill;
+    fetchData(apiForecastUrl, displayForecast)
 }
 function displayForecast(data) {
     const container = getById("forecast");
-    container.innerHTML += `<div class="weather-detail align-left">
-                            Wind Chill:
-                            <span id="weather_windchill">-</span> ℉
+    const date2day = new Date(data.daily[2].dt * 1000);
+    const date3day = new Date(data.daily[3].dt * 1000);
+
+    container.innerHTML = ` <div class="weather-forecast">
+                            Tomorrow <span id="fc_tomorrow">Min: ${data.daily[0].temp.min.toFixed(0)} - Max: ${data.daily[0].temp.max.toFixed(0)}</span> ℉
+                        </div>
+                        <div class="weather-forecast">
+                            ${date2day.toLocaleString('default', { month: 'long' })} ${date2day.getDate()}<span>Min: ${data.daily[1].temp.min.toFixed(0)} - Max: ${data.daily[1].temp.max.toFixed(0)} </span> ℉
+                        </div>
+                        <div class="weather-forecast">
+                            ${date3day.toLocaleString('default', { month: 'long' })} ${date3day.getDate()}<span>Min: ${data.daily[2].temp.min.toFixed(0)} - Max: ${data.daily[2].temp.max.toFixed(0)} </span> ℉
                         </div>`;
-}
-async function apiFetch() {
-    try {
-        const ak = "e3cf141a197ad7d8f55f34115bd5bcd5";
-        const response = await fetch(apiCurrentUrl + ak);
-        if (response.ok) {
-            const data = await response.json();
-            console.log(data); // this is for testing the call
-            displayResults(data);
-        } else {
-            throw Error(await response.text());
-        }
-    } catch (error) {
-        console.log(error);
+    const alertsList = getById("alerts_list")
+
+    if (data.alerts) {
+        data.alerts.forEach(temple => {
+            alertsList.innerHTML += `<option value="{temple.name}">${temple.name}</option>`
+            //console.log(temple);
+        });
     }
 }
 

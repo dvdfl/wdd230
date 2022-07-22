@@ -178,8 +178,12 @@ input[type="text"], input[type="date"] {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.weather-forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .temp-desc {
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
 .weather-info {
     display: grid;
@@ -188,4 +192,11 @@ input[type="text"], input[type="date"] {
 .align-right{text-align:right;}
 .align-left {
     text-align: left;
+}
+#weather_alerts {
+    background-color: #CE1616;
+    color: white;
+    text-align: center;
+    padding: .5em 0;
+    display: none;
 }
