@@ -1,0 +1,26 @@
+@media only screen and (min-width: 37.5em) {
+    h1 {
+        font-size: 1.6em;
+    }
+    header #sign-in {
+        display: initial;
+    }
+    header .logo {
+        flex: 0 1 9vw;
+        /*padding: 0 7px;*/
+    }
+    header div:nth-child(1),
+    header div:nth-child(2) {
+        flex-shrink: 1;
+    }
+
+    header div:nth-child(3){
+        flex-grow: 2;
+    }
+    header div:nth-child(5) {
+        padding-right: 1em;
+    }
+    .weather-info {
+        grid-template-columns: 1fr 2fr;
+    }
+}

@@ -1,0 +1,63 @@
+@media only screen and (min-width: 60em) {
+    .smenu {
+        display: none;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    header .logo {
+        flex: 0 1 100px;
+        /*padding: 0 7px;*/
+    }
+
+    #mainnav,
+    div#header_top,
+    div#content {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+    #mainnav {
+        display: block;
+        background-color: initial;
+        margin-top: -50px;
+        /*border: 1px dashed red;*/
+    }
+    nav ul {
+        display: flex;
+        justify-content: end;
+        flex-wrap: wrap;
+    }
+    nav ul li{
+        padding: 1.2em .7em .6em .7em;
+    }
+    nav ul li.menu-separator {
+        display: initial;
+    }
+    nav a {
+        color: #293241;
+    }
+    #content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1.5em;
+    }
+    #content .span2 {
+        grid-column: 1/3;
+    }
+    #foot_company{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #foot_company>div {
+        flex:0 1 auto;
+        padding: 0 1.5em;
+    }
+  /*  .cto_btn {
+        display:none;
+    }*/
+    header nav li.phone{
+        padding-top: 20px;
+    }
+}

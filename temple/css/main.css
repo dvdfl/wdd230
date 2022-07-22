@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lora');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri');
+
+/*
+Primary	Secondary	Accent 1	Accent 2
+#3d5a80	#98C1D9     #ee6c4d     #e0fbfc
+3d5a80  98c1d9      e0fbfc      ee6c4d  293241
+*/
+body {
+    font-family: 'Hind Siliguri',Arial, Helvetica, sans-serif;
+    margin: 0
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jost',Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 5.5vw;
+    color: #3d5a80;
+}
+a{
+    text-decoration:none;
+}
+header {
+    background-color: #f1f1f1;
+}
+header #header_top {
+    display: flex;
+    align-items: center;
+}
+header #header_top>div{
+    /*border: 1px dashed pink;*/
+    padding-left: 9px;
+}
+header #sign-in {
+    display: none;
+}
+img {
+    width: 100%
+}
+header .smenu,
+header .logo {
+    flex: 0 1 12vw;
+    /*padding: 0 7px;*/
+}
+header .smenu img
+{
+    width:90%;
+    border-radius: 5px;
+}
+img.media-logo {
+    max-width: 25px; 
+    margin-right: 7px;
+}
+/* nav */
+nav {
+    background-color: #293241;
+    display: none;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    list-style: none;
+    margin: 0;
+    border-bottom: #e1e1e1 1px solid;
+    padding: .70em;
+}
+nav ul li.menu-separator{ 
+    display: none;
+}
+nav a {
+    color: #e0fbfc;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+nav.responsive {
+    display: block;
+}
+
+section {
+    text-align: center;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 10px lightblue;
+    margin-bottom: 5vw;
+}
+section p{
+    margin: 15px;
+}
+div.hero {
+    position: relative;
+}
+section.booking {
+    background-color: #e0fbfc;
+    padding: 0 15px;
+ }
+section.booking form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+section.booking form>*{
+    line-height: 1.5em;
+    display:block;
+    align-items: center;
+}
+section.booking form label{
+    margin-bottom: 10px;
+}
+section.booking form label{
+    text-align:left;
+    width:100%;
+}
+
+footer {
+    padding: .5em 0;
+    background-color: #e0fbfc;
+    text-align: center;
+}
+#foot_company{
+    display:grid;
+}
+#foot_company>div {
+    justify-content: center
+}
+#foot_company div.logo img{
+    max-width: 70px;
+}
+footer .footnotes{
+    margin-top: 1em;
+    border-top: 2px solid #3d5a80;
+}
+.btn {
+    background-color: #3d5a80;
+    padding: .5em 1em;
+    color: white;
+    border-radius: 10px;
+    font-size: 120%;
+    border: 1px solid white;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn_sm {
+    padding: .3em .7em;
+    font-size: 100%;
+    font-weight: normal;
+    margin: -5px
+}
+form label input, form label textarea, form label select {
+    display: block;
+    font-size: 1.1em;
+    width: 100%;
+    padding: .5em;
+    max-width: 25em;
+    margin-top: 5px;
+    background-color: #e1e1e1;
+}
+input[type="text"], input[type="date"] {
+    box-sizing: border-box;
+}
+.cto_btn {
+    position: absolute;
+    bottom: 1.5em;
+    right: 1.5em;
+    padding: 0 1em;
+    background-color: #e0fbfcb8;
+    text-align: center;
+    color: black;
+    line-height: 1.8em;
+    font-weight: bold;
+}
+#weather img{
+    max-width: 80px;
+}
+.weather-detail{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.temp-desc {
+    text-transform:capitalize;
+}
+.weather-info {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.align-right{text-align:right;}
+.align-left {
+    text-align: left;
+}

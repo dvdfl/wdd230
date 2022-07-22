@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn &amp; Suites - Welcome tou our site.</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="header_top">
+                <div class="smenu">
+                    <a href="#" title="Expand / collapse menu" id="smenu_button">
+                        <img src="images/menu-icon.png" alt="menu icon" srcset="images/menu-icon.webp">
+                    </a>
+                </div>
+                <div class="logo">
+                    <img src="images/temple-inn-logo.png" alt="Temple Inn & suites logo" srcset="images/temple-inn-logo.webp" />
+                </div>
+                <div>
+                    <h1>Temple Inn &amp; Suites</h1>
+                </div>
+                <div id="media_logos">
+                    <a href="//facebook.com" target="new">
+                        <img class="media-logo" src="images/fb_icon.png" srcset="images/fb_icon.webp" alt="Facebook logo">
+                    </a>                    
+                    <a href="//twitter.com" target="new">
+                        <img class="media-logo" src="images/twitter_icon.png" srcset="images/twitter_icon.webp" alt="In logo">
+                    </a>
+                </div>
+                <div id="sign-in">
+                    <p><a href="#">Sign In</a> | <a href="#">Register</a></p>
+                </div>
+            </div>
+            <nav id="mainnav">
+                <ul class="nav">
+                    <!--<li class="menu-separator phone">☎ 1-800-999-9999</li>-->
+                    <li><a href="./" title="Home">Home</a></li>
+                    <li class="menu-separator">|</li>
+                    <li><a href="discover.html" title="Discover">Temple</a></li>
+                    <li class="menu-separator">|</li>
+                    <li><a href="directory.html" title="Directory">Services</a></li>
+                    <li class="menu-separator">|</li>
+                    <li class="menu-separator"><a href="#" class="btn btn_sm">Reserve Now</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="content">
+            <div class="hero span2">
+                <img src="images/family_temple-hero.jpg" alt="Damily looking at the Temple image" srcset="images/family_temple-hero.webp" />
+                <div class="cto_btn">
+                    <p>
+                        <a href="#" class="btn">Reserve Now</a>
+                        <br />
+                        Or call us: <br /><tel>1-800-999-9999</tel>
+                    </p>
+                </div>
+            </div>
+            <section class="booking">
+                <h3>Book your trip</h3>
+                <form>
+                    <label>
+                        Destination:
+                        <select id="temple_selection" name="temple">
+                            <option>- select -</option>
+                        </select>
+                    </label>
+                    <label>From: <input type="date" name="FromDate" /></label>
+                    <label>To:<input type="date" name="ToDate" /></label>
+                    <p>
+                        <input type="submit" class="btn" value="Find Room" />
+                    </p>
+                </form>
+            </section>
+            <section class="banner">
+                <img src="images/temple_square_night.jpg" alt="" title="" />
+                <h3>Specialized Services</h3>
+                <p>We provide services and accommodations that meet the needs of temple workers, patrons, and their families. Access to changing rooms and bathroom facilities for temple patrons.</p>
+                <a href="services.html" class="btn">Learn more</a>
+            </section>
+            <section id="weather" class="span2">
+                <h3>Weather</h3>
+                <div class="weather-info">
+                    <div>
+                        <img src="https://openweathermap.org/img/w/04n.png" alt="image" srcset="https://openweathermap.org/img/w/04n.png" id="weather_icon">
+                    </div>
+                    <div>
+                        <div class="degrees">Temperature <span id="weather_degrees">-</span>℉</div>
+                        <div class="temp-desc" id="temp_desc">-</div>
+                        <div class="weather-detail align-left">
+                            Wind Speed:
+                            <span id="weather_windspeed">-</span> m/h
+                        </div>
+                        <div class="weather-detail align-left">
+                            Wind Chill:
+                            <span id="weather_windchill">-</span> ℉
+                        </div>
+                        <div class="weather-detail align-left">
+                            Humidity:
+                            <span id="weather_humidity">-</span> %
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    Forecast
+                    <div id="forecast">
+                        <div class="weather-detail align-left">
+                            Tomorrow <span>32 </span> ℉
+                        </div>
+                        <div class="weather-detail align-left">
+                            2 Days <span>32 </span> ℉
+                        </div>
+                        <div class="weather-detail align-left">
+                            3 Days <span>32 </span> ℉
+                        </div>
+                    </div>
+                </div>
+                <p class="footnote">* Data from <a href="https://OpenWeatherMap.com">OpenWeatherMap.com</a></p>
+            </section>
+            <section class="banner">
+                <img src="images/oakland_temple_family.jpg" alt="Alternate Text" />
+                <h3>Temples</h3>
+                <p>
+                    Let us help you, we provide more information about the temples near where our hotels are located.
+                </p>
+                <a href="temples.html" class="btn">Learn more</a>
+            </section>
+            <section>
+                <img src="images/indoor_pool.jpg" alt="Alternate Text" />
+                <h3>Free Amenities</h3>
+                <p>
+                    We make your stay more enjoyable with free ammenities like Parking, Temple shuttle, Indoor pool, WiFi high-speed internet access.
+                </p>
+                <a href="services.html" class="btn">Learn more</a>
+            </section>
+        </div>
+        <footer>
+            <div id="foot_company">
+                <div class="logo">
+                    <img src="images/temple-inn-logo.png" alt="Temple Inn & suites logo" srcset="images/temple-inn-logo.webp" />
+                </div>
+                <div>
+                    <h1>Temple Inn &amp; Suites</h1>
+                </div>
+                <div>
+                    <address>
+                        4800 Montgomery Ln #300, <br />Bethesda, MD 20814
+                    </address>
+                    <a target="_blank" href="https://goo.gl/maps/T11DfmJafvJTzgNd8">
+                        View map
+                    </a>
+                </div>
+                <div id="media_logos">
+                    <a href="//facebook.com" target="new">
+                        <img class="media-logo" src="images/fb_icon.png" srcset="images/fb_icon.webp" alt="Facebook logo">
+                    </a>
+                    <a href="//twitter.com" target="new">
+                        <img class="media-logo" src="images/twitter_icon.png" srcset="images/twitter_icon.webp" alt="In logo">
+                    </a>
+                </div>
+            </div>
+            <div class="footnotes">
+                <p>
+                    © 2022 Temple Inn &amp; Suites | Created by: David F (BYUI) | Last Updated: 07/16/2022 21:52:22
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+{
+    "temples": [
+        {
+            "id": "1",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x640/washington-d-c-temple-lds-930875-wallpaper.jpg",
+            "name": "Washington D.C. Temple",
+            "address": "9900 Stoneybrook Dr, Kensington MD 20895-3199, United States",
+            "phone": "Currently unavailable",
+            "email": "Currently unavailable",
+            "services": ["Clothing rental unavailable", "Cafeteria unavailable", "N/A", "Distribution center nearby"],
+            "history": "Announced: 15 November 1968 | Groundbreaking: 7 December 1968 | Dedication: 19 November 1974 | Rededication: 14 August 2022",
+            "ordinance": "Live ordinances currently unavailable",
+            "session": "Temple sessions currently unavailable",
+            "closure": "Currently closed for renovation"
+        },
+        {
+            "id": "2",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/philadelphia-pennsylvania/400x640/philadelphia-pennsylvania-temple-1751627-wallpaper.jpg",
+            "name": "Philadelphia Pennsylvania Temple",
+            "address": "1739 Vine St, Philadelphia PA 19103, United States",
+            "phone": "(1) 215-398-3040",
+            "email": "PHILA-OFF@ChurchofJesusChrist.org",
+            "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "history": "Announced: 4 October, 2008 | Groundbreaking: 17 September, 2011 | Dedication: 18 September, 2016 ",
+            "ordinance": "Contact temple for live ordinances",
+            "session": "July 13-16, 20-23, 27-30",
+            "closure": "19 September 2022 - 10 October 2022 | 24 December 2022 - 25 December 2022 | 31 December 2022"
+        },
+        {
+            "id":"3",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/palmyra-new-york/400x640/palmyra-temple-766540-wallpaper.jpg",
+            "name": "Palmayra New York Temple",
+            "address": "2720 Temple Rd, Palmyra NY 14522-9573, United States",
+            "phone": "(1) 315-597-6001",
+            "email": "PALMY-OFF@ChurchofJesusChrist.org",
+            "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "history": "Announced: 21 February 1999 | Groundbreaking: 25 May 1999 | Dedicated: 6 April 2000",
+            "ordinance": "Contact temple for live ordinances",
+            "session": "July 12-16, 26-30",
+            "closure": "12 September 2022 - 26 September 2022 | 1 October 2022 | 24 November 2022 | 24 December 2022 | 21 December 2022"
+        },
+        {
+            "id":"4",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manhattan-new-york/400x640/manhattan-temple-lds-263460-wallpaper.jpg",
+            "name": "Manhattan New York Temple",
+            "address": "125 Columbus Ave, Fourth Floor, New York NY 10023-6514, United States",
+            "phone": "(1) 917-441-8220",
+            "email": "MANHA-OFF@ChurchofJesusChrist.org",
+            "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "history": "Announced: 7 October 2002 | Groundbreaking: 23 September 2002 | Dedication: 13 June 2004",
+            "ordinance": "Contact temple for live ordinances",
+            "session": "July 12-16, 19-23",
+            "closure": "25 July 2022 - 8 August 2022 | 1 October 2022 - 2 October 2022 | 24 November 2022 - 25 November 2022 | 24 December 2022 | 31 December 2022"
+        },
+        {
+            "id":"5",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/hartford-connecticut/2018/400x250/Hartford-Temple01.jpg",
+            "name": "Hartford Connecticut Temple",
+            "address": "2 Central Wy, Farmington CT 06032, United States",
+            "phone": "(1) 860-773-7200",
+            "email": "HARTF-OFF@ChurchofJesusChrist.org",
+            "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "history": "Announced: 2 October 2010 | Groundbreaking: 17 August 2013 | Dedication: 20 November 2016",
+            "ordinance": "Contact temple for live ordinances",
+            "session": "No availability this month",
+            "closure": "5 September 2022 - 28 November 2022 | 24 December 2022 | 21 December 2022"
+        },
+        {
+            "id":"6",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boston-massachusetts/400x640/boston-temple-lds-926960-wallpaper.jpg",
+            "name": "Boston Massachusetts Temple",
+            "address": "100 Hinckley Wy, Belmont MA 02478-2135, United States",
+            "phone": "(1) 617-993-9993",
+            "email": "BOSTO-OFF@ChurchofJesusChrist.org",
+            "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "history": "Announced: 30 September 1995 | Groundbreaking: 13 June 1997 | Dedication: 1 October 2000",
+            "ordinance": "Contact temple for live ordinances",
+            "session": "July 12-16, 19-23, 26-30",
+            "closure": "26 September 2022 - 17 October 2022"
+        }
+    ]
+}
